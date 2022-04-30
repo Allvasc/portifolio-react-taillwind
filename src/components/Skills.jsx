@@ -5,14 +5,14 @@ import css from '../assets/css.png'
 import javascript from '../assets/javascript.svg'
 import react from '../assets/react.svg'
 import next from '../assets/nextjs-icon.svg'
-import tailwind from '../assets/tailwindcss-icon.svg'
+import tailwind from '../assets/Tailwind.png'
 import mysql from '../assets/mysql-icon.svg'
 import git from '../assets/git.svg'
 
 
 const Skills = () => {
     return (
-        <div name="skills" className='w-full h-full bg-[#0a192f] text-grey-300'>
+        <div name="skills" className='w-full min-h-[100vh] bg-[#0a192f] text-grey-300'>
             {/*container*/}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
