@@ -5,13 +5,15 @@ import Skills from "./components/Skills";
 import Work from "./components/Work";
 
 function App() {
+
+
   return (
-    <div className=" text-3xl">
+    <div>
       <Navbar />
       <Home />
       <About />
-      <Skills/>
-      <Work/>
+      <Skills />
+      <Work />
     </div>
   );
 }

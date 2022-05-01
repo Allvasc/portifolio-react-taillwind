@@ -1,5 +1,12 @@
 import React from 'react'
-import WorkImg from '../assets/work1.jpg'
+import WorkImg1 from '../assets/work1.jpg'
+import WorkImg2 from '../assets/work2.jpg'
+import WorkImg3 from '../assets/work3.jpg'
+import WorkImg4 from '../assets/work4.jpg'
+import WorkImg5 from '../assets/work5.jpg'
+import WorkImg6 from '../assets/work6.jpg'
+
+
 
 const Work = () => {
     return (
@@ -16,7 +23,7 @@ const Work = () => {
 
                     {/*grid*/}
 
-                    <div style={{ backgroundImage: `url(${WorkImg})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center md:auto content-div'>
+                    <div style={{ backgroundImage: `url(${WorkImg1})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center md:auto content-div'>
 
                         {/*Hover effect*/}
 
@@ -35,7 +42,7 @@ const Work = () => {
                         </div>
                     </div>
 
-                    <div style={{ backgroundImage: `url(${WorkImg})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center md:auto content-div'>
+                    <div style={{ backgroundImage: `url(${WorkImg2})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center md:auto content-div'>
 
                         {/*Hover effect*/}
 
@@ -55,7 +62,7 @@ const Work = () => {
                     </div>
 
 
-                    <div style={{ backgroundImage: `url(${WorkImg})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center md:auto content-div'>
+                    <div style={{ backgroundImage: `url(${WorkImg3})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center md:auto content-div'>
 
                         {/*Hover effect*/}
 
@@ -74,7 +81,7 @@ const Work = () => {
                         </div>
                     </div>
 
-                    <div style={{ backgroundImage: `url(${WorkImg})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center md:auto content-div'>
+                    <div style={{ backgroundImage: `url(${WorkImg4})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center md:auto content-div'>
 
                         {/*Hover effect*/}
 
@@ -93,7 +100,7 @@ const Work = () => {
                         </div>
                     </div>
 
-                    <div style={{ backgroundImage: `url(${WorkImg})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center md:auto content-div'>
+                    <div style={{ backgroundImage: `url(${WorkImg5})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center md:auto content-div'>
 
                         {/*Hover effect*/}
 
@@ -112,7 +119,7 @@ const Work = () => {
                         </div>
                     </div>
 
-                    <div style={{ backgroundImage: `url(${WorkImg})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center md:auto content-div'>
+                    <div style={{ backgroundImage: `url(${WorkImg6})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center md:auto content-div'>
 
                         {/*Hover effect*/}
 
