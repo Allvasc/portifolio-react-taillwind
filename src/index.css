@@ -18,8 +18,8 @@
 .content-div {
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
-    height: 150px;
+    background-position: top center;
+    height: 200px;
 }
 
 .content-div:hover {
@@ -33,7 +33,7 @@
     .content-div {
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: left;
+        background-position: center;
         height: 250px
         !important
     }

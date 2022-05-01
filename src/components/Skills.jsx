@@ -12,7 +12,7 @@ import git from '../assets/git.svg'
 
 const Skills = () => {
     return (
-        <div name="skills" className='w-full min-h-[100vh] bg-[#0a192f] text-grey-300'>
+        <div name="skills" className='w-full min-h-[100vh] bg-[#0a192f] text-grey-300 pt-[80px]'>
             {/*container*/}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>

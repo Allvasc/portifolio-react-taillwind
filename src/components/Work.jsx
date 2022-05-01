@@ -10,7 +10,7 @@ import WorkImg6 from '../assets/work6.jpg'
 
 const Work = () => {
     return (
-        <div name='work' className='w-full min-h-[100vh] text-gray-300 bg-[#0a192f] py-10'>
+        <div name='work' className='w-full min-h-[100vh] text-gray-300 bg-[#0a192f] pt-[80px]'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='text-gray-300 text-4xl font-bold inline border-b-4 border-pink-600'>work</p>
