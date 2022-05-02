@@ -10,7 +10,7 @@ import WorkImg6 from '../assets/work6.jpg'
 
 const Work = () => {
     return (
-        <div name='work' className='w-full min-h-[100vh] text-gray-300 bg-[#0a192f] pt-[80px]'>
+        <div name='work' className='w-full h-full text-gray-300 bg-[#0a192f] pt-[80px]'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='text-gray-300 text-4xl font-bold inline border-b-4 border-pink-600'>work</p>
@@ -27,15 +27,15 @@ const Work = () => {
 
                         {/*Hover effect*/}
 
-                        <div className='opacity-0 group-hover:opacity-100'>
+                        <div className='opacity-0 group-hover:opacity-100 text-center'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
                                 React.js Aplication
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                <a href="https://allvasc.github.io/react-netflix-clone/" target="_blank" rel="noreferrer" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     <button>Demo</button>
                                 </a>
-                                <a href="/" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                <a href="/" target="_blank" rel="noreferrer" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     <button>Code</button>
                                 </a>
                             </div>
@@ -46,16 +46,13 @@ const Work = () => {
 
                         {/*Hover effect*/}
 
-                        <div className='opacity-0 group-hover:opacity-100'>
+                        <div className='opacity-0 group-hover:opacity-100 text-center'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React.js Aplication
+                                html, css, Js
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                <a href="https://www.sipel.com.br/" target="_blank" rel="noreferrer" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     <button>Demo</button>
-                                </a>
-                                <a href="/" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    <button>Code</button>
                                 </a>
                             </div>
                         </div>
@@ -66,16 +63,13 @@ const Work = () => {
 
                         {/*Hover effect*/}
 
-                        <div className='opacity-0 group-hover:opacity-100'>
+                        <div className='opacity-0 group-hover:opacity-100 text-center'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React.js Aplication
+                                html, css, Js
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                <a href="https://thymosacurapelocoracao.com/" target="_blank" rel="noreferrer" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     <button>Demo</button>
-                                </a>
-                                <a href="/" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    <button>Code</button>
                                 </a>
                             </div>
                         </div>
@@ -85,15 +79,15 @@ const Work = () => {
 
                         {/*Hover effect*/}
 
-                        <div className='opacity-0 group-hover:opacity-100'>
+                        <div className='opacity-0 group-hover:opacity-100 text-center'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React.js Aplication
+                                html, css, Js
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                <a href="https://thymosacurapelocoracao.com/formacaothymos/" target="_blank" rel="noreferrer" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     <button>Demo</button>
                                 </a>
-                                <a href="/" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                <a href="https://github.com/Allvasc/Formacao_thymos" target="_blank" rel="noreferrer" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     <button>Code</button>
                                 </a>
                             </div>
@@ -104,15 +98,15 @@ const Work = () => {
 
                         {/*Hover effect*/}
 
-                        <div className='opacity-0 group-hover:opacity-100'>
+                        <div className='opacity-0 group-hover:opacity-100 text-center'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React.js Aplication
+                                html, css, Js
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                <a href="/https://kondadigital.com/" target="_blank" rel="noreferrer" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     <button>Demo</button>
                                 </a>
-                                <a href="/" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                <a href="https://github.com/Allvasc/site-kondaDigital" target="_blank" rel="noreferrer" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     <button>Code</button>
                                 </a>
                             </div>
@@ -123,25 +117,21 @@ const Work = () => {
 
                         {/*Hover effect*/}
 
-                        <div className='opacity-0 group-hover:opacity-100'>
+                        <div className='opacity-0 group-hover:opacity-100 text-center'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React.js Aplication
+                                html, css, Js
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                <a href="https://serhumanosurf.com/" target="_blank" rel="noreferrer" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     <button>Demo</button>
                                 </a>
-                                <a href="/" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                <a href="https://github.com/Allvasc/SerHumanoSurf" target="_blank" rel="noreferrer" className='text-center mx-auto rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     <button>Code</button>
                                 </a>
                             </div>
                         </div>
                     </div>
-
-
-
                 </div>
-
             </div>
         </div>
     )
