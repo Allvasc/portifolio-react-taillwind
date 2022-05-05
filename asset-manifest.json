@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portifolio-react-taillwind/static/css/main.b77b7a17.css",
-    "main.js": "/portifolio-react-taillwind/static/js/main.283481e8.js",
+    "main.js": "/portifolio-react-taillwind/static/js/main.7a7e550a.js",
     "static/media/work1.jpg": "/portifolio-react-taillwind/static/media/work1.1078eafd462b0de6e04f.jpg",
     "static/media/work4.jpg": "/portifolio-react-taillwind/static/media/work4.f889a0c17d69bacc2580.jpg",
     "static/media/work3.jpg": "/portifolio-react-taillwind/static/media/work3.052a1ea525449ce119fa.jpg",
@@ -19,10 +19,10 @@
     "static/media/javascript.svg": "/portifolio-react-taillwind/static/media/javascript.fd46ca41839433d73577989d86eb2fe2.svg",
     "index.html": "/portifolio-react-taillwind/index.html",
     "main.b77b7a17.css.map": "/portifolio-react-taillwind/static/css/main.b77b7a17.css.map",
-    "main.283481e8.js.map": "/portifolio-react-taillwind/static/js/main.283481e8.js.map"
+    "main.7a7e550a.js.map": "/portifolio-react-taillwind/static/js/main.7a7e550a.js.map"
   },
   "entrypoints": [
     "static/css/main.b77b7a17.css",
-    "static/js/main.283481e8.js"
+    "static/js/main.7a7e550a.js"
   ]
 }
