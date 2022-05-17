@@ -4,6 +4,8 @@ import Logo from '../assets/Logo.png'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { Link } from 'react-scroll'
+import { motion } from "framer-motion"
+
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -11,9 +13,9 @@ const Navbar = () => {
 
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-[999999]'>
             <div>
-                <img src={Logo} alt="Logomarca" style={{ width: '50px' }} />
+                <motion.img src={Logo} alt="Logomarca" style={{ width: '50px' }} initial={{ rotate: '-500deg' }} animate={{ rotate: 0 }} transition={{type: 'spring', duration:1, bounce: 0.3}} />
             </div>
 
             {/* menu */}

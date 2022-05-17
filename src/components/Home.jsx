@@ -1,13 +1,15 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { Link } from 'react-scroll'
+import { motion } from "framer-motion"
 
 const Home = () => {
   return (
-    <div name="home" className='w-full h-screen bg-[#0a192f]'>
+    <div name="home" className='w-full h-screen bg-[#0a192f] z-10'>
 
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+      <motion.div initial={{ y: '100vh' }} animate={{ y: 0 }} transition={{type: 'spring', duration:1, bounce: 0.2}}
+       className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-pink-600 text-base sm:text-4xl font-bold'>Hi, my name is</p>
         <h1 className='text-3xl sm:text-7xl font-bold text-[#ccd6f6]'>Allison Vasconcelos</h1>
         <h2 className='text-2xl sm:text-5xl font-bold text-[#8892b0]'>I'm Front end Developer.</h2>
@@ -21,7 +23,7 @@ const Home = () => {
             </span>
           </button>
         </div>
-      </div>
+      </motion.div>
 
     </div>
   )
